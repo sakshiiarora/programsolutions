@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<graphics.h>
+void main()
+{
+    clrscr();
+    gotoxy(30,2);
+    textcolor(7);
+    textbackground(5);
+    cprintf("hello world");
+    gotoxy(30,5);
+    textcolor(5);
+    textbackground(15);
+    cprintf("code lovers!!!");
+    getch();
+}
